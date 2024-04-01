@@ -3,10 +3,27 @@
     color: white;
 }
 
+.content{
+    padding: 2rem 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+
  @media screen and (max-width: 400px) {
     #home h1{
         font-size: 2.2rem;
         font-weight: 400;
         margin-bottom: 1rem;
+    }
+ }
+
+ @media screen and (max-width: 768px) {
+    .content a{
+        margin-bottom: 1rem;
+    }
+ }
+
+ @media (min-width: 768.1px) and (max-width: 992px) {
+    #home img{
+        width: 350px;
     }
  }
