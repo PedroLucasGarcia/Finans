@@ -8,6 +8,10 @@
     border-bottom: 1px solid #e5e5e5;
 }
 
+footer p a{
+    margin: 5px 15px;
+}
+
  @media screen and (max-width: 400px) {
     #home h1{
         font-size: 2.2rem;
